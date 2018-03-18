@@ -1,0 +1,207 @@
+/*
+(c) 2018 Yuki Tsuji
+
+レスポンシブWebデザイン
+*/
+
+body{
+  background-color: #EEEEEE;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, Meiryo, sans-serif;
+  color: #003366;
+  font-size: 100%;
+  text-align: left;
+  margin: 0 auto;
+  width: 800px;
+  padding: 20px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+button, input, select, textarea{
+  font-family: inherit;
+  color: #003366;
+  font-size: 100%;
+}
+
+fieldset{
+  border: 1px solid #003366;
+}
+
+h1{
+  text-align: center;
+  font-size: 40px;
+  padding: 5px;
+}
+
+h2{
+  background-color: #EEEEEE;
+  border-left: 7px solid #AAAAAA;
+  border-bottom: 1px dashed #003366;
+  font-size: 22px;
+  margin: 15px -15px 15px -22px;
+  padding: 5px 15px;
+}
+
+hr{
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+  border-color: #555555;
+  height: 1px;
+}
+
+.foo{
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.copyright{
+  color: #999999;
+  font-style: normal;
+  text-align: center;
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 750px){
+	
+	body{
+	  background-color: #EEEEEE;
+	  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, Meiryo, sans-serif;
+	  color: #003366;
+	  font-size: 100%;
+	  text-align: left;
+	  margin: 0 auto;
+	  width: auto;
+	  padding: 20px;
+	}
+	
+	img{
+	  max-width: 100%;
+	  height: auto;
+	}
+	
+	button, input, select, textarea{
+	  font-family: inherit;
+	  color: #003366;
+	  font-size: 100%;
+	}
+	
+	textarea{
+	  width: 80vw;
+	}
+	
+	fieldset{
+	  border: 1px solid #003366;
+	}
+	
+	h1{
+	  text-align: center;
+	  font-size: 40px;
+	  padding: 5px;
+	}
+	
+	h2{
+	  background-color: #EEEEEE;
+	  border-left: 7px solid #AAAAAA;
+	  border-bottom: 1px dashed #003366;
+	  font-size: 22px;
+	  margin: 15px -15px 15px -22px;
+	  padding: 5px 15px;
+	}
+	
+	hr{
+	  border-width: 1px 0px 0px 0px;
+	  border-style: solid;
+	  border-color: #555555;
+	  height: 1px;
+	}
+	
+	input.form{
+	  width: 80vw;
+	}
+	
+	.foo{
+	  word-wrap: break-word;
+	  overflow-wrap: break-word;
+	}
+	
+	.copyright{
+	  color: #999999;
+	  font-style: normal;
+	  text-align: center;
+	  padding: 10px 0;
+	}
+}
+
+@media screen and (max-width: 320px){
+	
+	body{
+	  background-color: #EEEEEE;
+	  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, Meiryo, sans-serif;
+	  color: #003366;
+	  font-size: 100%;
+	  text-align: left;
+	  margin: 0 auto;
+	  width: auto;
+	  padding: 20px;
+	}
+	
+	img{
+	  max-width: 100%;
+	  height: auto;
+	}
+	
+	button, input, select, textarea{
+	  font-family: inherit;
+	  color: #003366;
+	  font-size: 100%;
+	}
+	
+	textarea{
+	  width: 70vw;
+	}
+	
+	fieldset{
+	  border: 1px solid #003366;
+	}
+	
+	h1{
+	  text-align: center;
+	  font-size: 40px;
+	  padding: 5px;
+	}
+	
+	h2{
+	  background-color: #EEEEEE;
+	  border-left: 7px solid #AAAAAA;
+	  border-bottom: 1px dashed #003366;
+	  font-size: 22px;
+	  margin: 15px -15px 15px -22px;
+	  padding: 5px 15px;
+	}
+	
+	hr{
+	  border-width: 1px 0px 0px 0px;
+	  border-style: solid;
+	  border-color: #555555;
+	  height: 1px;
+	}
+	
+	input.form{
+	  width: 70vw;
+	}
+	
+	.foo{
+	  word-wrap: break-word;
+	  overflow-wrap: break-word;
+	}
+	
+	.copyright{
+	  color: #999999;
+	  font-style: normal;
+	  text-align: center;
+	  padding: 10px 0;
+	}
+}
