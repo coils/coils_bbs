@@ -2,7 +2,7 @@
 /*
 (c) 2018 Yuki Tsuji
 
-Coils トップページ
+Coils掲示板 トップページ
 
 使用する時は，データベース情報を変更して下さい．
 
@@ -75,7 +75,7 @@ if(isset($_POST['login'])){
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="author" content="Yuki Tsuji">
-<meta name="description" content="Coilsは，画像のアップロード機能を備えた会員制掲示板です．">
+<meta name="description" content="Coils掲示板は，画像のアップロード機能を備えた会員制掲示板です．">
 <meta name="robots" content="noindex, nofollow, noarchive">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="./css/coils.css" rel="stylesheet">
@@ -83,11 +83,11 @@ if(isset($_POST['login'])){
 </head>
 <body>
 <div class="foo">
-<h1><span style="color: #FF0000;">C</span><span style="color: #FFFF00;">o</span><span style="color: #00CC00;">i</span><span style="color: #0000FF;">l</span><span style="color: #800080;">s</span></h1>
+<h1>Coils掲示板</h1>
 <fieldset>
-<legend>Coilsへようこそ</legend>
+<legend>Coils掲示板へようこそ</legend>
 <p>
-Coilsは，画像のアップロード機能を備えた会員制掲示板です．
+Coils掲示板は，画像のアップロード機能を備えた会員制掲示板です．
 </p>
 <div style="text-align: center;">
 <form action="manual.php" name="manual" method="POST">
