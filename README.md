@@ -1,6 +1,6 @@
-Coils
+Coils掲示板
 ====
-Coilsは，画像のアップロード機能を備えた会員制掲示板です．また，削除，編集機能を備えています．
+Coils掲示板は，画像のアップロード機能を備えた会員制掲示板です．また，削除，編集機能を備えています．
 
 レスポンシブWebデザインを使用しているので，スマートフォンに対応しています．
 
@@ -20,7 +20,7 @@ You can check with the following URL.
 + <http://coils.php.xdomain.jp>
 
 ## Environment
-Coilsは，以下の環境で動作確認を行いました．他の環境でも動作するかもしれませんが，サポートしていません．
+Coils掲示板は，以下の環境で動作確認を行いました．他の環境でも動作するかもしれませんが，サポートしていません．
 
 I have tested Coils on the following environment. Coils may work on the other environment, but I do not support the other setting.
 
