@@ -12,13 +12,6 @@ Since it uses responsive web design, it is compatible with smartphones.
 
 When using, please create each table after changing the database information. After that, create an administrator account.
 
-## Demo
-以下のURLで確認できます．
-
-You can check with the following URL.
-
-+ <http://coils.php.xdomain.jp>
-
 ## Environment
 Coils掲示板は，以下の環境で動作確認を行いました．他の環境でも動作するかもしれませんが，サポートしていません．
 
